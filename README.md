@@ -2,5 +2,4 @@
 
 Create Movie website that have two applications:
 
-- Reviews app
 - MoviesList app 
