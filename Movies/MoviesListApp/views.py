@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 
-def Movie_Name(request):
-    page = request.GET.get('page')
+def index(request):
+    search = request.GET.get('search')
 
-    return render(request, 'base.html',{'page':page})
+    return render(request, 'base.html',{'search':search})
